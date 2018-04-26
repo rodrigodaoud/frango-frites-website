@@ -1,0 +1,20 @@
+@import 'variables';
+
+// ---- BUTTONS ---- //
+
+@mixin primary-button{
+    background-color: $secondary-color;
+    letter-spacing: 2px;
+    padding: 5px;
+    font-weight: bolder;    
+    border-radius: 2px;
+}
+@mixin secondary-button{
+    background-color: $primary-color;
+    border: none;
+    padding: 8px 16px;
+    letter-spacing: 5px;
+    border-radius: 20px;
+    color: $secondary-color;
+    font-family: $chau-philo;
+}

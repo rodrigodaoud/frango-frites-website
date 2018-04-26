@@ -1,0 +1,28 @@
+
+// --- COLORS --- //
+$primary-color: #BF0000;
+$secondary-color: #FFBF00;
+$third-color: #9C1616;
+
+// --- FONTS --- //
+$din-light: 'DINPro-Light';
+$engplot: 'Engineering Plot';
+$chau-philo: 'Chau Philomene One', sans-serif;
+
+@font-face{
+    font-family: 'DINPro-Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DINPro-Light'), url('../fonts/DINPro-Light_13935.woff') format('woff');
+}
+@font-face {
+    font-family:"Engineering Plot";
+    src:url("Engplot.eot?") format("eot"),
+    url("../fonts/Engplot.woff") format("woff"),
+    url("../fonts/Engplot.ttf") format("truetype"),
+    url("../fonts/Engplot.svg#EngineeringPlotLight") format("svg");
+    font-weight:normal;
+    font-style:normal;
+}
+
+// --- LAYOUT --- //
